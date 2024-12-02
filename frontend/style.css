@@ -1,0 +1,154 @@
+body {
+    background-image: url('../images/pexels-abby-chung-371167-1106468.jpg');
+    background-size: cover;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 24px; font-style: normal; 
+
+}    
+
+.form {
+    width: 500px;
+    height: auto;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 28px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid black;
+}
+
+
+button {
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    display: block;
+    margin: 0px auto;
+    background-color: #b05543;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #bf503b;
+    cursor: pointer;
+    color: white;
+}
+
+label {
+    flex: 0 0 150px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.tab table{
+    width: 800px;
+    margin: 40px auto;
+    height: auto;
+}
+
+.tab tbody {
+    background-color: white;
+}
+.tab thead {
+    background-color: #b05543;
+}
+
+.tab th,
+.tab td {
+    border: 2px solid black;
+}
+
+.tab th,
+.tab td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+#aucun {
+    background-color: #b05543;
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* modify file */
+
+.modify
+{
+  width: 400px;
+  height:  600px;
+  margin: 40px auto;
+  background-color: white;
+}
+
+.modify input {
+  width: 300px;
+  margin: 20px auto;
+}
+.modify label {
+  display: flex;              /* Enable Flexbox */
+  justify-content: center;    /* Center horizontally */
+  align-items: center;        /* Center vertically */
+  font-size: medium;
+  font-weight: bold;
+  width: 400px;
+  margin-bottom: 10px;                
+}
+#btn_sb {
+  height: 50px;
+}
+
+/*  */
+.success-message
+{
+    display: inline-block;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    animation: fadeOut 10s forwards; /* Trigger the fade-out effect */
+    opacity: 1;
+    color: #fafafa;
+    text-align: center;
+    position: absolute; /* Position relative to the closest positioned ancestor or the viewport */
+    left: 50%; /* Move it to the middle of the page horizontally */
+    transform: translate(-50%, -50%); /* Offset it to be truly centered */
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
